@@ -1,0 +1,9 @@
+POST http://localhost:8080/api/v1/posts
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "title": "Title",
+  "description": "description",
+  "tags": ["tags1","tags2","tags3","tags4","tags12"]
+}
